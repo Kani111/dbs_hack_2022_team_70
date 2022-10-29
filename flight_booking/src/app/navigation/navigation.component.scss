@@ -1,0 +1,31 @@
+.maintxt {position: relative; background-color: bisque;}
+.maintxt >img {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    height: 50vh;
+    filter: blur(2px);
+}
+.news{
+    left: 10%;
+    position: absolute;
+}
+.maintxt .overlay-text {
+    position: absolute; 
+    /* top: 10%; */
+    margin-top: 5%;
+    left: 28%;
+}
+.cards{
+    position: absolute;
+    top: 400px;
+}
+.card {
+    margin-left: 20px;
+    background-color: #ADD8E6;
+    /* color: #ADD8E6; */
+}
+.card-body {
+    background-color: #ADD8E6;
+    width: 100%;
+}
